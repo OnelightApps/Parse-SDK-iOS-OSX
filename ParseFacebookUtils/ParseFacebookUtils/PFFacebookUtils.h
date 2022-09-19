@@ -15,10 +15,7 @@
 #import <Parse/PFUser.h>
 
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-
-#if TARGET_OS_IOS
-#import <FBSDKLoginKit/FBSDKLoginManager.h>
-#endif
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
