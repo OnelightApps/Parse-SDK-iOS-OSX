@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
 
     s.dependency 'Parse/Core'
     s.dependency 'Bolts/Tasks', '~> 1.9.1'
-    s.dependency 'FBSDKLoginKit', '~> 15.1.0'
+    s.dependency 'FBSDKLoginKit', '~> 16.0.0'
   end
 
   s.subspec 'FacebookUtils-tvOS' do |s|
@@ -126,8 +126,8 @@ Pod::Spec.new do |s|
 
     s.dependency 'Parse/Core'
     s.dependency 'Bolts/Tasks', '~> 1.9.1'
-    s.dependency 'FBSDKTVOSKit', '~> 15.1.0'
-    s.dependency 'FBSDKShareKit', '~> 15.1.0'
+    s.dependency 'FBSDKTVOSKit', '~> 16.0.0'
+    s.dependency 'FBSDKShareKit', '~> 16.0.0'
   end
 
   s.subspec 'TwitterUtils' do |s|
